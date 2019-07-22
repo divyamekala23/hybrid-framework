@@ -6,4 +6,8 @@ package com.divya.fileutils;
  * output will be
  */
 public class FileReader {
+
+    public static void main(String[] args) {
+
+    }
 }
