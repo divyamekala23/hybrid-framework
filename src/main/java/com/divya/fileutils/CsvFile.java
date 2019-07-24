@@ -30,16 +30,16 @@ public class CsvFile {
         }
 
         @Test
-
-        public void testReadingDataFromCSV(){
-
-            List<String[]> data = readFromCSVFile("C:\\Users\\navee\\divyaProjects\\hybrid-framework\\target\\generated-sources\\Login-data.csv");
-
-            for(String[] element: data){
-
-                System.out.println(Arrays.toString(element));
-            }
-        }
+//
+////        public void testReadingDataFromCSV(){
+//
+//            List<String[]> data = readFromCSVFile("C:\\Users\\navee\\divyaProjects\\hybrid-framework\\target\\generated-sources\\Login-data.csv");
+//
+//            for(String[] element: data){
+//
+//                System.out.println(Arrays.toString(element));
+//            }
+//        }
 
     public List<String[]> readFromCSVFile(String csvFilePath) {
       try {
